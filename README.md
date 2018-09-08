@@ -1,4 +1,4 @@
-# macInfo
+# macOsEy
 
 Repo is being maintained regally again.
 

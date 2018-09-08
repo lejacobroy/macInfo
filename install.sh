@@ -4,8 +4,8 @@
 #List of options
 echo ""
 echo "Please choose an option:"
-echo "1. Install macInfo to /usr/local/bin"
-echo "2. Uninstall macInfo from /usr/local/bin"
+echo "1. Install macOsey to /usr/local/bin"
+echo "2. Uninstall macOsey from /usr/local/bin"
 echo -n "Option: "
 read answer
 echo ""
@@ -22,8 +22,8 @@ then
    fi
 
    #copy script
-   sudo cp macInfo Models.txt /usr/local/bin/
-   sudo chmod +x /usr/local/bin/macInfo
+   sudo cp macosey /usr/local/bin/
+   sudo chmod +x /usr/local/bin/macosey
 
    #display message
    tput setaf 2
@@ -34,7 +34,7 @@ elif [ $answer == 2 ]
 then
 
    #remove script
-   sudo rm -f /usr/local/bin/macInfo /usr/local/bin/Models.txt
+   sudo rm -f /usr/local/bin/macosey
 
    #display message
    tput setaf 2
